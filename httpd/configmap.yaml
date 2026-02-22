@@ -1,4 +1,3 @@
-cat <<EOF > httpd/configmap.yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -6,4 +5,3 @@ metadata:
 data:
   index.html: |
     Ini tampilan dari HTTPD dan nama saya Erwin
-EOF
