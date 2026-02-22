@@ -1,4 +1,3 @@
-cat <<EOF > nginx/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -26,4 +25,3 @@ spec:
         - name: nginx-html
           configMap:
             name: nginx-config
-EOF
