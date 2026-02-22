@@ -1,0 +1,9 @@
+cat <<EOF > nginx/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  index.html: |
+    Ini tampilan dari NGINX dan nama saya Erwin
+EOF

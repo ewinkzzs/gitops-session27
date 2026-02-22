@@ -1,0 +1,9 @@
+cat <<EOF > httpd/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: httpd-config
+data:
+  index.html: |
+    Ini tampilan dari HTTPD dan nama saya Erwin
+EOF
